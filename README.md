@@ -70,8 +70,7 @@ validateButton.MouseButton1Click:Connect(function()
         frame:Destroy()
 
         -- Rodar o código do Pastebin
-  loadstring(game:httpGet("https://raw.githubusercontent.com/teyzim/wadsdas/refs/heads/main/README.md",true))()
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/teyzim/wadsdas/refs/heads/main/README.md", true))()
 
         -- Notificar que o código está sendo executado
         local successLabel = Instance.new("TextLabel")
